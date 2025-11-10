@@ -12,9 +12,13 @@ const TheatreForm = ({ onSubmit }: TheatreFormProps) => {
   const [isSubmitting, setIsSubmitting] = useState(false)
 
   const roleOptions = [
-    'Teacher / Educator',
+    'Teacher',
+    'Careers Leader',
+    'Guidance Counsellor',
+    'Student',
+    'School Administrator',
+    'Employer',
     'Theatre / Venue Employee',
-    'Teaching Artist',
     'Other',
   ]
 
