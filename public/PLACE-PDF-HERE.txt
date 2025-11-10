@@ -1,0 +1,16 @@
+IMPORTANT: Add Your PDF Here
+================================
+
+Please add your PDF file to this directory with the following name:
+work-in-theatre.pdf
+
+This PDF will be available for download after users complete the form.
+
+Steps:
+1. Rename your PDF to: work-in-theatre.pdf
+2. Place it in this /public folder
+3. Delete this PLACE-PDF-HERE.txt file
+
+The file path should be:
+/public/work-in-theatre.pdf
+
