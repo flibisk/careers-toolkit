@@ -18,16 +18,8 @@ export default function Home() {
   }, [])
 
   const handleFormSubmit = async (data: { role: string; organisation: string }) => {
-    // ============================================
-    // REPLACE THIS URL WITH YOUR GOOGLE APPS SCRIPT WEB APP URL
-    // To set up:
-    // 1. Create a Google Sheet
-    // 2. Go to Extensions > Apps Script
-    // 3. Paste the provided script (see README.md)
-    // 4. Deploy as Web App
-    // 5. Copy the URL and paste it below
-    // ============================================
-    const GOOGLE_APPS_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE'
+    // Google Apps Script URL for form submissions
+    const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxpQmGdSw0N55a_O7ekoYiQwTNfw6RDpJ9n9d_ANMaRs9k5hWAJ1UqEsS5z-MahiA0C/exec'
 
     try {
       const response = await fetch(GOOGLE_APPS_SCRIPT_URL, {
